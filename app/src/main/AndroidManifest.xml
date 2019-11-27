@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bloom2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Bloom"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tips"></activity>
+        <activity android:name=".Garden" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".statistics"
+            android:label="@string/title_activity_statistics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".timer"
+            android:label="@string/title_activity_timer"
+            android:parentActivityName=".navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

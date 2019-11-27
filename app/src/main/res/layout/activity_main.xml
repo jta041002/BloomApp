@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/timer">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="287dp"
+        android:layout_height="528dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="-75dp"
+        app:srcCompat="@drawable/cday7"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="345dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:text="Get Started!"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="288dp"
+        android:layout_height="179dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="426dp"
+        android:text="Bloom"
+        android:textColor="#ffff"
+        android:textSize="100sp"
+        app:fontFamily="@font/caveat"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp" />
+</RelativeLayout>
